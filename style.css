@@ -1,0 +1,52 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 1rem;
+  min-width: 400px;
+}
+
+input {
+  padding: 0.6rem 1rem;
+  width: 100%;
+  outline: none;
+  border: 2px solid rgb(14, 77, 77);
+  border-radius: 0.2rem;
+  font-size: large;
+}
+
+button {
+  background: rgb(14, 77, 77);
+  color: beige;
+  padding: 0.8rem 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-top: 0.5rem;
+  border: 1px solid rgb(14, 77, 77);
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+#delete_btn {
+  background: transparent;
+  color: rgb(14, 77, 77);
+  margin-left: 1rem;
+}
+ul {
+  margin-top: 1.8rem;
+}
+li {
+  list-style: none;
+  margin-bottom: 0.3rem;
+  font-size: 1.3rem;
+}
+a {
+  color: rgb(14, 77, 77);
+}
